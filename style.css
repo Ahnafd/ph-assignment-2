@@ -8,7 +8,6 @@
     display: flex;
 }
 .img-1{
-    height: 62px;
     width: 62px;
 }
 .starting{
@@ -87,6 +86,9 @@ color: #01ACFD;
     font-weight:light;
     font-size: 20px;
 }
+.bar{
+    display: none;
+}
 .btn-2{
     width: 197px;
     height: 50px;
@@ -101,4 +103,63 @@ color: #01ACFD;
 }
 .inner-parent-1{
     margin: 122px 60px ;
+}
+@media only screen and (max-width:600px) {
+    .nav-1{
+        margin: 12px 16px;
+    }
+    .starting{
+        display: none;
+    }
+    .btn-1{
+        display: none;
+    }
+    .link-dad{
+        display: none;
+        margin-left: 40px;
+    }
+    .nav-1{
+        justify-content: space-between;
+    }
+    .bar{
+        display: block;
+        margin-top: 20px;
+        margin-left: 225px;
+        width: 30px;
+        height: 30px;
+        color: white;
+    }
+    .title-1{
+        position: relative;
+        left: 250px;
+    }
+    .img-1{
+        align-self: center;
+    }
+    .inner-parent-1{
+        order: 2;
+        margin-top: 5px;
+    }
+    .inner-parent-2{
+        order: 1;
+    }
+    .hero-img{
+        width: 300px;
+        height: 413px;
+        object-fit: contain;
+        margin-bottom: 5px;
+    }
+    .first-parent{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .first-head{
+        font-size: 32px;
+        text-align: center;
+    }
+    .p-1{
+        text-align: center;
+    }
 }
