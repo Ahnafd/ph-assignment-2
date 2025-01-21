@@ -348,11 +348,91 @@ font-weight: medium;
     color: white;
     border-radius: 12px;
     border: none;
+    margin-bottom: 60px;
 }
 .btn-div{
     display: flex;
     justify-content: center;
 
+}
+.footer-dad{
+    background-color: #01ACFD;
+    padding: 123px 220px 174px 147px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-family: "Quicksand", serif;
+    font-size: 42.14px;
+    font-weight: bold;
+    color: white;
+}
+.footer-img-div{
+    display: flex;
+}
+.footer-line{
+    padding-top: 34px;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+    text-align:left;
+    margin-right: 172px;
+}
+.span-2{
+
+}
+span{
+    position: relative;
+    top: 40px;
+    right: 94px;
+}
+.footer-2{
+    padding-right: 110px;
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-title-2{
+    color: white;
+    padding-bottom:32px;
+}
+.link-99{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: repeat(4,1fr);
+}
+.lunk-1{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+}
+.lunk-2{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+}
+.lunk-3{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+}
+.lunk-4{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+}
+.footer-title-3{
+    padding-right: 110px;
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 32px;
 }
 @media only screen and (max-width:600px) {
     .nav-1{
