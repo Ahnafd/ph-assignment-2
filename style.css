@@ -438,6 +438,9 @@ font-weight: medium;
     padding-bottom: 32px;
 }
 @media only screen and (max-width:600px) {
+    .card-parent{
+        margin-left: 10px;
+    }
     .nav-1{
         margin: 12px 16px;
         }
@@ -500,7 +503,7 @@ font-weight: medium;
         display: grid;
         grid-template-rows: repeat(3,1fr);
         grid-template-columns: repeat(1,1fr);
-        margin:20px 15px 12px 15px;
+        margin:20px 15px 12px 22px;
     }
     .title-2{
         margin-top: 0px;
@@ -572,7 +575,7 @@ font-weight: medium;
         }
 
 .footer-line{
-    justify-content: center;
+    /* justify-content: center; */
 }
 .footer-img{
     object-fit: contain;
